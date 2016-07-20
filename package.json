@@ -1,0 +1,28 @@
+{
+  "name": "is-mersenne-prime",
+  "version": "1.0.0",
+  "description": "Check if the given number is a mersenne prime or not.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Aravind-Suresh/is-mersenne-prime.git"
+  },
+  "keywords": [
+    "mersenne",
+    "prime",
+    "primality"
+  ],
+  "author": "Aravind Suresh <arvindsuresh2009@gmail.com> (http://aravind-suresh.github.io)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Aravind-Suresh/is-mersenne-prime/issues"
+  },
+  "homepage": "https://github.com/Aravind-Suresh/is-mersenne-prime",
+  "dependencies": {
+    "is-prime": "^1.0.1",
+    "number-is-integer": "^1.0.0"
+  }
+}
