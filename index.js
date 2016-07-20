@@ -9,13 +9,13 @@ var isPrime = require('is-prime');
  * @return {Boolean}     Whether num is a mersenne prime or not
  */
 function isMersennePrime(num) {
-  if (Math.sqrt(num + 1) % 1 === 0) {
+  if ((num & (num + 1)) === 0) {
     return isPrime(num);
   }
   return false;
 }
 
-exports = function(n) {
+module.exports = function(n) {
   if (typeof n !== 'number') {
     throw new TypeError('Expected a number');
   }
